@@ -100,7 +100,7 @@ def main
   puts "Please enter the number of pegs (4-6): "
   pegs = gets.chomp.to_i
 
-  puts "Please enter the number of colors (4-8): "
+  puts "Please enter the number of colors (4-6): "
   colors = gets.chomp.to_i
   puts "You have selected #{pegs} pegs and #{colors}"
   puts "The colors available are:(R, O, Y, G, B, V) which represent Red, Orange, Yellow, Green, Blue, Violet respectively " 
