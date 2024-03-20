@@ -61,12 +61,12 @@ initialize(name): Initializes the color with the specified name.
 Here is the class diagram showing the relationships between the classes:
 
 +----------+       +----------+       +---------+
-|   Game   |-------|  Player  |-------|  Color  |
+|   Game   |<----->|  Player  |<----->|  Color  |
 +----------+       +----------+       +---------+
            \           /         
             \         /          
             +-----------------+
             |                 |
          +---------------------------+
-         |          Main           |
+         |          Main             |
          +---------------------------+
